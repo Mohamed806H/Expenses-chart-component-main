@@ -1,0 +1,234 @@
+header.app__header {
+  section.app__header-section-top {
+    background-color: var(--clr-SRed);
+    margin: 181px 0 0 448px;
+    width: 544px;
+    height: 128px;
+    border-radius: 10px;
+    @media screen and (max-width: 35em) {
+      margin: 67px 0 0 16px;
+      width: 342px;
+      height: 97px;
+    }
+    div.details {
+      margin: 0 0 0 34px;
+      @media screen and (max-width: 35em) {
+        margin: 0 0 0 20px;
+      }
+      p {
+        color: var(--clr-VBO);
+        margin: 28px 0 0 0;
+        @media screen and (max-width: 35em) {
+          margin: 19px 0 0 0;
+          font-size: 15px;
+        }
+      }
+      h1 {
+        font-size: 31px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        line-height: 40px;
+        color: var(--clr-VBO);
+        margin: 9px 0 0 0;
+        @media screen and (max-width: 35em) {
+          font-size: 24px;
+          margin: 5px 0 0 0;
+        }
+      }
+    }
+    div.logo {
+      margin: 40px 41px 0 auto;
+      @media screen and (max-width: 35em) {
+        margin: 28px 28px 0 auto;
+        width: 61px;
+        height: 41px;
+      }
+    }
+  }
+  section.app__header-section-bottom {
+    background-color: var(--clr-VBO);
+    width: 544px;
+    height: 513px;
+    margin: 21px 0 0 448px;
+    border-radius: 10px;
+    @media screen and (max-width: 35em) {
+      width: 342px;
+      height: 422px;
+      margin: 15px 0 0 16px;
+    }
+    div.details-top {
+      h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px;
+        color: var(--clr-DB);
+        padding: 33px 0 0 42px;
+        @media screen and (max-width: 35em) {
+          font-size: 24px;
+          padding: 25px 0 0 20px;
+        }
+      }
+      div.charts {
+        div.box {
+          width: 51px;
+          background-color: var(--clr-SRed);
+          border-radius: 5px;
+          transition: all 0.1s ease-in-out;
+          @media screen and (max-width: 35em) {
+            width: 33px;
+          }
+          span {
+            position: relative;
+            display: none;
+            top: -45px;
+            left: -11px;
+            padding: 11px 12px 10px 13px;
+            font-size: 15px;
+            background-color: var(--clr-DB);
+            color: var(--clr-VBO);
+            border-radius: 4px;
+            width: 75px;
+            height: 40px;
+            @media screen and (max-width: 35em) {
+              padding: 5px 3px 5px 1px;
+              width: 60px;
+              height: 30px;
+            }
+          }
+          &:hover {
+            opacity: 0.8;
+            span {
+              display: block;
+            }
+          }
+        }
+        p.day {
+          font-size: 15px;
+          color: var(--clr-MB);
+          margin: 8px 0 0 0;
+        }
+        div.chart-one {
+          margin: 166px 17px 0 42px;
+          @media screen and (max-width: 35em) {
+            margin: 152px 12px 0 20px;
+          }
+          div.box {
+            height: 50px;
+          }
+        }
+        div.chart-two {
+          margin: 116px 17px 0 0;
+          @media screen and (max-width: 35em) {
+            margin: 102px 12px 0 0;
+          }
+          div.box {
+            height: 100px;
+          }
+        }
+        div.chart-three {
+          margin: 66px 17px 0 0;
+          @media screen and (max-width: 35em) {
+            margin: 52px 12px 0 0;
+          }
+          div.box {
+            height: 150px;
+            background-color: var(--clr-cyan);
+          }
+        }
+        div.chart-four {
+          margin: 127px 17px 0 0;
+          @media screen and (max-width: 35em) {
+            margin: 113px 12px 0 0;
+          }
+          div.box {
+            height: 89px;
+          }
+        }
+        div.chart-five {
+          margin: 149px 17px 0 0;
+          @media screen and (max-width: 35em) {
+            margin: 135px 12px 0 0;
+          }
+          div.box {
+            height: 67px;
+          }
+        }
+        div.chart-sex {
+          margin: 92px 17px 0 0;
+          @media screen and (max-width: 35em) {
+            margin: 78px 12px 0 0;
+          }
+          div.box {
+            height: 124px;
+          }
+        }
+        div.chart-seven {
+          margin: 143px 17px 0 0;
+          @media screen and (max-width: 35em) {
+            margin: 129px 12px 0 0;
+          }
+          div.box {
+            height: 73px;
+          }
+        }
+      }
+    }
+    hr {
+      width: 460px;
+      color: var(--clr-DB);
+      margin: 33px auto 0 auto;
+      @media screen and (max-width: 35em) {
+        width: 303px;
+        margin: 10px 0 0 20px;
+      }
+    }
+    div.details-bottom {
+      div.left {
+        :first-child {
+          margin: 34px 0 0 42px;
+          letter-spacing: 0.01em;
+          color: var(--clr-MB);
+          @media screen and (max-width: 35em) {
+            margin: 15px 0 0 20px;
+            font-size: 15px;
+            width: 114px;
+          }
+        }
+        :last-child {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 62px;
+          margin: 2px 0 0 42px;
+          color: var(--clr-DB);
+          @media screen and (max-width: 35em) {
+            font-size: 29px;
+            margin: -13px 0 0 20px;
+            width: 115px;
+          }
+        }
+      }
+      div.right {
+        :first-child {
+          margin: 65px 0 0 223px;
+          letter-spacing: 0.03em;
+          color: var(--clr-DB);
+          @media screen and (max-width: 35em) {
+            margin: 30px 0 0 144px;
+            font-size: 15px;
+          }
+        }
+        :last-child {
+          line-height: 62px;
+          color: var(--clr-MB);
+          margin: -20px 0 0 142px;
+          @media screen and (max-width: 35em) {
+            margin: -3px 0 0 77px;
+            font-size: 15px;
+            width: 114px;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+}

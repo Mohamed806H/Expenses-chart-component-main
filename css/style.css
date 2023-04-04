@@ -1,0 +1,265 @@
+header.app__header section.app__header-section-top {
+  background-color: var(--clr-SRed);
+  margin: 181px 0 0 448px;
+  width: 544px;
+  height: 128px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-top {
+    margin: 67px 0 0 16px;
+    width: 342px;
+    height: 97px;
+  }
+}
+header.app__header section.app__header-section-top div.details {
+  margin: 0 0 0 34px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-top div.details {
+    margin: 0 0 0 20px;
+  }
+}
+header.app__header section.app__header-section-top div.details p {
+  color: var(--clr-VBO);
+  margin: 28px 0 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-top div.details p {
+    margin: 19px 0 0 0;
+    font-size: 15px;
+  }
+}
+header.app__header section.app__header-section-top div.details h1 {
+  font-size: 31px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 40px;
+  color: var(--clr-VBO);
+  margin: 9px 0 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-top div.details h1 {
+    font-size: 24px;
+    margin: 5px 0 0 0;
+  }
+}
+header.app__header section.app__header-section-top div.logo {
+  margin: 40px 41px 0 auto;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-top div.logo {
+    margin: 28px 28px 0 auto;
+    width: 61px;
+    height: 41px;
+  }
+}
+header.app__header section.app__header-section-bottom {
+  background-color: var(--clr-VBO);
+  width: 544px;
+  height: 513px;
+  margin: 21px 0 0 448px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom {
+    width: 342px;
+    height: 422px;
+    margin: 15px 0 0 16px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  color: var(--clr-DB);
+  padding: 33px 0 0 42px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top h2 {
+    font-size: 24px;
+    padding: 25px 0 0 20px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.box {
+  width: 51px;
+  background-color: var(--clr-SRed);
+  border-radius: 5px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.box {
+    width: 33px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.box span {
+  position: relative;
+  display: none;
+  top: -45px;
+  left: -11px;
+  padding: 11px 12px 10px 13px;
+  font-size: 15px;
+  background-color: var(--clr-DB);
+  color: var(--clr-VBO);
+  border-radius: 4px;
+  width: 75px;
+  height: 40px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.box span {
+    padding: 5px 3px 5px 1px;
+    width: 60px;
+    height: 30px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.box:hover {
+  opacity: 0.8;
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.box:hover span {
+  display: block;
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts p.day {
+  font-size: 15px;
+  color: var(--clr-MB);
+  margin: 8px 0 0 0;
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-one {
+  margin: 166px 17px 0 42px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-one {
+    margin: 152px 12px 0 20px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-one div.box {
+  height: 50px;
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-two {
+  margin: 116px 17px 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-two {
+    margin: 102px 12px 0 0;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-two div.box {
+  height: 100px;
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-three {
+  margin: 66px 17px 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-three {
+    margin: 52px 12px 0 0;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-three div.box {
+  height: 150px;
+  background-color: var(--clr-cyan);
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-four {
+  margin: 127px 17px 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-four {
+    margin: 113px 12px 0 0;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-four div.box {
+  height: 89px;
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-five {
+  margin: 149px 17px 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-five {
+    margin: 135px 12px 0 0;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-five div.box {
+  height: 67px;
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-sex {
+  margin: 92px 17px 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-sex {
+    margin: 78px 12px 0 0;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-sex div.box {
+  height: 124px;
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-seven {
+  margin: 143px 17px 0 0;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-seven {
+    margin: 129px 12px 0 0;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-top div.charts div.chart-seven div.box {
+  height: 73px;
+}
+header.app__header section.app__header-section-bottom hr {
+  width: 460px;
+  color: var(--clr-DB);
+  margin: 33px auto 0 auto;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom hr {
+    width: 303px;
+    margin: 10px 0 0 20px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-bottom div.left :first-child {
+  margin: 34px 0 0 42px;
+  letter-spacing: 0.01em;
+  color: var(--clr-MB);
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-bottom div.left :first-child {
+    margin: 15px 0 0 20px;
+    font-size: 15px;
+    width: 114px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-bottom div.left :last-child {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  margin: 2px 0 0 42px;
+  color: var(--clr-DB);
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-bottom div.left :last-child {
+    font-size: 29px;
+    margin: -13px 0 0 20px;
+    width: 115px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-bottom div.right :first-child {
+  margin: 65px 0 0 223px;
+  letter-spacing: 0.03em;
+  color: var(--clr-DB);
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-bottom div.right :first-child {
+    margin: 30px 0 0 144px;
+    font-size: 15px;
+  }
+}
+header.app__header section.app__header-section-bottom div.details-bottom div.right :last-child {
+  line-height: 62px;
+  color: var(--clr-MB);
+  margin: -20px 0 0 142px;
+}
+@media screen and (max-width: 35em) {
+  header.app__header section.app__header-section-bottom div.details-bottom div.right :last-child {
+    margin: -3px 0 0 77px;
+    font-size: 15px;
+    width: 114px;
+    line-height: normal;
+  }
+}
