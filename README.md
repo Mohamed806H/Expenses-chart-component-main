@@ -4,12 +4,12 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ## Screenshot
 
-![desktop-preview]()
+(https://user-images.githubusercontent.com/91362640/229726670-86b09c75-bd6f-4527-b18a-5c9f6d2f16a1.jpg)
 
 ## Links
 
-- Solution URL:()
-- Live Site URL:()
+- Solution URL:(https://www.frontendmentor.io/solutions/expenseschartcomponentmain-iEZ5ZR9do_)
+- Live Site URL:(https://mohamed806h.github.io/Expenses-chart-component-main/)
 
 ## Built with
 
