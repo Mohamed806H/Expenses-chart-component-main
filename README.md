@@ -4,7 +4,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ## Screenshot
 
-(https://user-images.githubusercontent.com/91362640/229726670-86b09c75-bd6f-4527-b18a-5c9f6d2f16a1.jpg)
+![desktop-preview](https://user-images.githubusercontent.com/91362640/229727465-5638643c-71ff-4b12-81b9-e03339405afe.jpg)
 
 ## Links
 
